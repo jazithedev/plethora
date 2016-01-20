@@ -2,9 +2,13 @@
 Plethora is an open-source PHP framework which gives a set of tools to create web-applications.
 
 application - directory used to store all main files related to applications (like config files, classes, views etc.)
+
 framework   - all core files of Framework
+
 modules     - directory used to store all of the framework modules
+
 public_html - in here you store all public files
+
 vendor      - stores main framework subsystems written by other authors (used for composer [https://getcomposer.org])
               for example: Doctrine 2 ORM
 
