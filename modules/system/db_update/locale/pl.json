@@ -1,0 +1,14 @@
+{
+    "no_context": {
+        "module.db_update" : "Aktualizacja bazy danych",
+        "section.dbupdate" : "Aktualizacja bazy danych",
+
+        "make update" : "dokonaj aktualizacji",
+        "Database updated successfully." : "Baza danych została zaktualizowana",
+        "Error" : "Błąd",
+
+        "Click the button below to update database." : "Kliknij poniższy przycisk aby zaktualizować bazę danych.",
+        "Output data" : "Dane wyjściowe",
+        "Queries done (in amount of :amount):" : "Wykonane zapytania (w ilości :amount):"
+    }
+}

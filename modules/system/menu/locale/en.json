@@ -1,0 +1,33 @@
+{
+    "no_context": {
+        "module.menu" : "Menu",
+        "backend.submenu.contents.menu_list" : "Menu list",
+        "backend.submenu.contents.menu_add" : "Add menu",
+
+        "Add menu.menu_items" : "Add menu item",
+        "Sort menu.menu_items" : "Sort menu items",
+        "menu.menu_items list" : "Menu items list",
+
+        "items list": "items list",
+        "Menu list": "Menu list",
+        "Menu items list": "Menu items list",
+        "Edit menu item": "Edit menu item",
+        "Add menu item": "Add menu item",
+
+        "Working name": "Working name",
+        "The working name must contain only lowercase letters and underscores.": "The working name must contain only lowercase letters and underscores.",
+
+        "Menu item has been deleted successfully.": "Menu item has been deleted successfully.",
+
+        "Name": "Name",
+        "Route": "Route",
+        "Route parameters": "Route parameters",
+        "Active routes": "Active routes",
+
+        "List of routes for which the actual route will be active": "List of routes for which the actual route will be active",
+        "HTML classes": "HTML classes",
+        "Menu title": "Menu title",
+
+        "Active trail class cannot be empty!" : "Active trail class cannot be empty!"
+    }
+}

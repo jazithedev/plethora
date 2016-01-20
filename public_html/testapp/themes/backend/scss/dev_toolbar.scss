@@ -1,0 +1,11 @@
+$widthPage: 1000px;
+$borderRadiusSize: 4px;
+$baseFontSizePx: 14px;
+$baseFontSize: 1.125em;
+
+$sPathAssets: '/themes/_common/assets/';
+
+//@import '../../_common/scss/helpfull';
+@import '../../_common/scss/functions';
+@import '../../_common/scss/fw';
+@import '../../../../../modules/system/dev_toolbar/scss/styles';

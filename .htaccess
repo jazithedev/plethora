@@ -1,0 +1,12 @@
+<IfModule mod_php5.c>
+  php_flag engine off
+</IfModule>
+
+# Protect hidden files from being viewed
+<Files .*>
+ Order Deny,Allow
+ Deny From All
+</Files>
+
+RewriteCond %{HTTP_HOST} domain.com
+RewriteRule ^(.*)$ public_html/testapp/$1 [L]

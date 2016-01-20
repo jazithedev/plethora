@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+	<branch value="1.0.x-dev">
+		<build version="1.0.0-dev, 2015-04-19">
+			<change>Utworzenie modułu.</change>
+		</build>
+	</branch>
+</root>

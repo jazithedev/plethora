@@ -1,0 +1,99 @@
+{
+    "no_context": {
+        "user": "User",
+        "Add user": "Add user",
+        "module.user": "Users",
+        "section.user": "Users",
+        "section.user\\role" : "User roles",
+        "section.user\\permission" : "User permissions",
+
+        "backend.submenu.system.users": "Users list",
+        "backend.submenu.system.roles_list": "User roles list",
+        "backend.submenu.system.permission_list": "User permissions list",
+
+        "I forgot password": "I forgot password",
+        "I want to register an account": "I want to register an account",
+
+        "Name": "Name",
+        "ID": "ID",
+        "Firstname": "Firstname",
+        "Lastname": "Lastname",
+        "Nickname": "Nickname",
+        "Password": "Password",
+        "City": "City",
+        "Image": "Image",
+        "Roles": "Roles",
+        "Description": "Description",
+        "User profile": "User profile",
+        "Security field": "Security field",
+        "Login form": "Login form",
+        "Login page": "Login page",
+        "Incorrect login data": "Incorrect login data",
+        "Logout": "Logout",
+        "Wrong password passed. Try again.": "Wrong password passed. Try again.",
+        "Register Your account": "Register Your account",
+
+        "Change password": "Change password",
+        "Password changed successfully.": "Password changed successfully.",
+
+        "user\role": "User roles",
+        "Add user_role": "Add user role",
+
+        "Permissions": "Permissions",
+        "user\\permission": "User permissions",
+        "Add user_permission": "Add user permission",
+
+        "Your account has been registered successfully. Activation link has been sent to your mailbox. Click it to make the final activation.": "Your account has been registered successfully. Activation link has been sent to your mailbox. Click it to make the final activation.",
+        "Activate your new account": "Activate your new account",
+        ":appname - Activation link": ":appname - Activation link",
+        "Password recovery": "Password recovery",
+        "Cannot use password recovery system while being logged in!": "Cannot use password recovery system while being logged in!",
+        "Message has been sent on your e-mail address. Click on the link from it's content to recover password to your account.": "Message has been sent on your e-mail address. Click on the link from it's content to recover password to your account.",
+        "New password": "New password",
+        "Your password has been successfully changed to the new one.": "Your password has been successfully changed to the new one.",
+        "Password has been changed successfully.": "Password has been changed successfully.",
+
+        "Account activation on :app": "Account activation on :app",
+
+        "Error occured": "Error occured",
+        "This page does not exists.": "This page does not exists.",
+
+        "Your profile has been modified successfully.": "Your profile has been modified successfully.",
+        "View profile": "View profile",
+        "Edit profile": "Edit profile",
+
+        "Confirm password": "Confirm password",
+        "Confirm new password": "Confirm new password",
+        "Confirm e-mail": "Confirm e-mail",
+
+        "This value can contain only letters, numbers and \"-\" or \"_\" characters.": "This value can contain only letters, numbers and \"-\" or \"_\" characters.",
+
+        "Enter new password for Your account:": "Enter new password for Your account:",
+
+        "contact": "contact",
+        "CONTACT": "CONTACT",
+
+        "An error occurred while recovering access to your account. The reason may be one of the following points": "An error occurred while recovering access to your account. The reason may be one of the following points",
+        "recovery operation has already been made under this link;": "recovery operation has already been made under this link;",
+        "link from the e-mail was not fully copied into your browser's address field.": "link from the e-mail was not fully copied into your browser's address field.",
+        "If none of the above reasons does not solve the problem, please contact us via the :contact section.": "If none of the above reasons does not solve the problem, please contact us via the :contact section.",
+        "Enter Your e-mail address to recover access to Your account.": "Enter Your e-mail address to recover access to Your account.",
+
+        "Hello :login": "Hello :login",
+        "We were asked to change password on your account registered on :site_name site. To do this, click on the link below:": "We were asked to change password on your account registered on :site_name site. To do this, click on the link below:",
+        "Password recovery link": "Password recovery link",
+
+        "If the above operation is not made by you, report it to us through the :contact section.": "If the above operation is not made by you, report it to us through the :contact section.",
+
+        "You have entered wrong username or password. Try again.": "You have entered wrong username or password. Try again.",
+
+        "You have successfully logged out from the site.": "You have successfully logged out from the site.",
+
+        "Admin account cannot be removed!" : "Admin account cannot be removed!",
+
+        "Enter your password" : "Enter your password",
+        "This field is used for a security purposes." : "This field is used for a security purposes.",
+
+        "to.many.incorrect.logins" : "To many incorrect login attempts. You must wait a while to be able to login."
+    }
+}

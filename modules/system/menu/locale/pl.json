@@ -1,0 +1,33 @@
+{
+    "no_context": {
+        "module.menu" : "Menu",
+        "backend.submenu.contents.menu_list" : "Lista menu",
+        "backend.submenu.contents.menu_add" : "Dodaj menu",
+
+        "Add menu.menu_items" : "Dodaj nową pozycję menu",
+        "Sort menu.menu_items" : "Sortuj pozycje menu",
+        "menu.menu_items list" : "Lista pozycji menu",
+
+        "items list": "lista pozycji menu",
+        "Menu list": "Lista menu",
+        "Menu items list": "Lista pozycji menu",
+        "Edit menu item": "Edytuj pozycję menu",
+        "Add menu item": "Dodaj nową pozycję menu",
+
+        "Working name": "Nazwa robocza",
+        "The working name must contain only lowercase letters and underscores.": "Nazwa robocza musi składać się jedynie z małych liter oraz podkreślników.",
+
+        "Menu item has been deleted successfully.": "Pozycja menu została w pełni poprawnie usunięta.",
+
+        "Name": "Nazwa",
+        "Route": "Trasa",
+        "Route parameters": "Parametry trasy",
+        "Active routes": "Aktywne trasy",
+
+        "List of routes for which the actual route will be active": "Lista tras dla których dana ścieżka będzie aktywna.",
+        "HTML classes": "Klasy HTML",
+        "Menu title": "Tytuł menu",
+
+        "Active trail class cannot be empty!" : "Klasa aktywnej klasy nie może być pusta!"
+    }
+}

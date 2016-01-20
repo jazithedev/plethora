@@ -1,0 +1,7 @@
+{
+    "require": {
+        "doctrine/orm": "*",
+        "mtdowling/cron-expression": "^1.0",
+        "raveren/kint": "1.0.10"
+    }
+}

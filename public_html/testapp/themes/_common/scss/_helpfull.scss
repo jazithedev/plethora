@@ -1,0 +1,15 @@
+ul, li { padding: 0; margin: 0; list-style: none; }
+
+// helpfull classes
+.main_width { width: $widthPage; margin: 0 auto; }
+.border_radius { -webkit-border-radius: $borderRadiusSize; -moz-border-radius: $borderRadiusSize; border-radius: $borderRadiusSize; }
+.hidden_el { width: 1px; height: 1px; padding: 0; margin: -1px; border: 0 none; clip: rect(0px, 0px, 0px, 0px); overflow: hidden; position: absolute; }
+.hide_text { text-indent: 100%; white-space: nowrap; overflow: hidden; }
+.pos_absolute_all_0 { position: absolute; top: 0; right: 0; bottom: 0; left: 0; }
+.uppcase { text-transform: uppercase; }
+.box_sizing { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.clearfix {
+	zoom: 1; // For IE 6/7 (trigger hasLayout)
+	&:before, &:after { content:""; display:table; }
+	&:after { clear:both; }
+}

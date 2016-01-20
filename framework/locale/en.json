@@ -1,0 +1,117 @@
+{
+    "no_context": {
+        "Version" : "Version",
+        "All rights reserved." : "All rights reserved.",
+        "Toggle navigation" : "Toggle navigation",
+        "User Image" : "User Image",
+        "Member since :date" : "Member since :date",
+        "Profile" : "Profile",
+
+        "Home": "Home",
+        "Error": "Error",
+        "List": "List",
+        "Management panel": "Management panel",
+
+        "Edit entry": "Edit entry",
+        "Add entry": "Add entry",
+        "Sort entries": "Sort entries",
+        "Delete item": "Delete item",
+        "Search engine" : "Search engine",
+
+        "Wrong node type.": "Wrong node type.",
+        "Name of the route cannot be empty!": "Name of the route cannot be empty!",
+        "Name \"perm\" is reserved and cannot be used!": "Name \"perm\" is reserved and cannot be used!",
+        "List of objects is empty.": "List of objects is empty.",
+        "Entries list is empty.": "Entries list is empty.",
+        "Add operation was successful.": "Add operation was successful.",
+        "Edit operation was successful.": "Edit operation was successful.",
+        "Entry has been deleted successfully.": "Entry has been deleted successfully.",
+        "Are you sure that want to remove item <b>:name</b> with id <b>:id</b> from <b>:section</b> section?": "Are you sure that want to remove item <b>:name</b> with id <b>:id</b> from <b>:section</b> section?",
+
+        "Content with particular id does not exist.": "Content with particular id does not exist.",
+        "Permission denied.": "Permission denied.",
+        "Access denied.": "Access denied.",
+
+        "send": "send",
+
+        "Type of system message must be one of these: success, info, warning, danger.": "Type of system message must be one of these: success, info, warning, danger.",
+        "Bad request token. Please, send the form once again.": "Bad request token. Please, send the form once again.",
+        "Insufficient amount of values given for this field (should be :number).": "Insufficient amount of values given for this field (should be :number).",
+        "Too hight amount of values given for this field (should be :number).": "To hight amount of values given for this field (should be :number).",
+        "The amount of values for this field should be :number (:amount given).": "The amount of values for this field should be :number (:amount given).",
+
+        "Cannot get value from \":name\" property, because it does not exists in \":class\" class.": "Cannot get value from \":name\" property, because it does not exists in \":class\" class.",
+        "Cannot set value from \":name\" property, because it does not exists in \":class\" class.": "Cannot set value from \":name\" property, because it does not exists in \":class\" class.",
+
+        "Files for \":themename\" theme do not exist.": "Files for \":themename\" theme do not exist.",
+        "Given value must be a number.": "Given value must be a number.",
+        "Given value must be one of these values: ": "Given value must be one of these values: ",
+
+        "In the purpose of security, you must prove that you are not a bot.": "In the purpose of security, you must prove that you are not a bot.",
+
+        "Cannot set quantity for form field of \"Checkbox\" type.": "Cannot set quantity for form field of \"Checkbox\" type.",
+        "To make this field work properly, there must be a broker model name set.": "To make this field work properly, there must be a broker model name set.",
+        "Password confirmation": "Password confirmation",
+        "Form data submitted.": "Form data submitted.",
+
+        "Error occured while saving data in database.": "Error occured while saving data in database.",
+        "Route with name \":routename\" was added to the routing table twice!": "Route with name \":routename\" was added to the routing table twice!",
+
+        "Given value is empty.": "Given value is empty.",
+        "The amount of values must be higher than 0.": "The amount of values must be higher than 0.",
+        "One of the values is empty.": "One of the values is empty.",
+        "The value of this field must be the same as the value of the previous field.": "The value of this field must be the same as the value of the previous field.",
+
+        "Field value \":file\" need to be formatted to string format (:type at the moment).": "Field value \":file\" need to be formatted to string format (:type at the moment).",
+
+        "Minimal file size: :sizeKB.": "Minimal file size: :sizeKB.",
+        "Maximal file size: :sizeKB.": "Maximal file size: :sizeKB.",
+        "Can upload files only with these extensions: :ext.": "Can upload files only with these extensions: :ext.",
+        "Can upload files of only those types: :types.": "Can upload files of only those types: :types.",
+
+        "Minimal length: :amount characters": "Minimal length: :amount characters",
+        "Maximal length: :amount characters": "Maximal length: :amount characters",
+        "The value can contain only letters.": "The value can contain only letters.",
+        "Regex expression restrictions: :regex.": "Regex expression restrictions: :regex.",
+
+        "Given value is not a string.": "Given value is not a string.",
+        "At least one value for this field must be picked.": "At least one value for this field must be picked.",
+        "Invalid value.": "Invalid value.",
+
+        "One of the given values already exists in the database.": "One of the given values already exists in the database.",
+        "This value already exists in the database.": "This value already exists in the database.",
+        "One of the values is incompatible with data from database.": "One of the values is incompatible with data from database.",
+        "Value is incompatible with data from database.": "Value is incompatible with data from database.",
+
+        "Given date cannot be empty.": "Given date cannot be empty.",
+        "Given date is invalid.": "Given date is invalid.",
+
+        "Given value cannot be empty." : "Given value cannot be empty.",
+        "Uploaded file is too small (:size2KB)! It's minimal size should be :sizeKB." : "Uploaded file is too small (:size2KB)! It's minimal size should be :sizeKB.",
+        "Uploaded file is too big (:sizenewKB)! It's maximal size should be :sizeneedKB." : "Uploaded file is too big (:sizenewKB)! It's maximal size should be :sizeneedKB.",
+        "File with wrong format uploaded! Allowed types of files: :exts." : "File with wrong format uploaded! Allowed types of files: :exts.",
+        "Invalid file type (:invalid_type)! List of allowed fields types: :types." : "Invalid file type (:invalid_type)! List of allowed fields types: :types.",
+
+        "Invalid value - it's not a number." : "Invalid value - it's not a number.",
+        "Given value is lower than :num." : "Given value is lower than :num.",
+        "Given value is higher than :num." : "Given value is higher than :num.",
+        "This value must be an unsigned number." : "This value must be an unsigned number.",
+        "This value must be an integer." : "This value must be an integer.",
+        "Particular value should be a float with :decimal places after the decimal point." : "Particular value should be a float with :decimal places after the decimal point.",
+
+        "The specified value does not meet the requirements for specified regular expression formula: :regex" : "The specified value does not meet the requirements for specified regular expression formula: :regex",
+
+        "Given e-mail address is invalid." : "Given e-mail address is invalid.",
+        "The amount of this string characters cannot be lower than :num." : "The amount of this string characters cannot be lower than :num.",
+        "The amount of this string characters cannot be greater than :num." : "The amount of this string characters cannot be greater than :num.",
+        "Value of this and previous field must be the same." : "Value of this and previous field must be the same.",
+        "This value must contain at least one number." : "This value must contain at least one number.",
+        "This value must contain at least one text character." : "This value must contain at least one text character.",
+        "This value must contain at least one uppercase text character." : "This value must contain at least one uppercase text character.",
+        "This value must contain letters only." : "This value must contain letters only.",
+        "This value should contain only letters and some of the characters (:chars)." : "This value should contain only letters and some of the characters (:chars).",
+        "This value should contain letters, numbers and some of the characters (:chars)." : "This value should contain letters, numbers and some of the characters (:chars).",
+        "Particular value is not an URL." : "Particular value is not an URL.",
+        "Value is invalid for this regular expression: :exp" : "Value is invalid for this regular expression: :exp"
+    }
+}

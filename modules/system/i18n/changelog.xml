@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+    <branch value="1.0.x-dev">
+        <build version="1.2.0-dev">
+            <change>Zmiana sposobu przechowywania tłumaczeń interfejsu.</change>
+            <change>Implementacja podsystemu importowania tłumaczeń z plików JSON.</change>
+        </build>
+        <build version="1.1.0-dev, 2015-12-29">
+            <change>Naprawienie błędu występującego po przejściu Plethory na wersję alpha.</change>
+        </build>
+    </branch>
+    <branch value="1.0.x-dev">
+        <build version="1.0.7-dev, 2015-10-02">
+            <change>Naprawienie błędu w błędnej ścieżce do widoku stronnicowania.</change>
+        </build>
+        <build version="1.0.6-dev, 2015-07-01">
+            <change>Modyfikacja, aby cache od tłumaczeń istniał bez ograniczenia czasowego.</change>
+        </build>
+        <build version="1.0.5-dev, 2015-06-07">
+            <change>Drobne poprawki w kodzie.</change>
+            <change>Dorobienie opcji czyszczenia pamięci podręcznej języków.</change>
+            <change>Zmiana nazwy Modelu `I18n\I18nLocales` na `I18n\Locales`.</change>
+        </build>
+        <build version="1.0.4-dev, 2015-03-21">
+            <change>Zmiana typu porównywania napisów tabel modułu na "utf8_bin" dla celów porównywania również małych,
+                jak i dużych liter.
+            </change>
+            <change>Zabezpieczenie pól "input" typu "text", znajdujących się na liście tłumaczeń, przed znakiem
+                cudzysłowia.
+            </change>
+        </build>
+        <build version="1.0.3-dev, 2015-03-15">
+            <change>Poprawienie błędu występującego z powodu usunięcia metody "\Plethora\Route::backend_url". Zamiana na
+                "\Plethora\Route::backendUrl".
+            </change>
+        </build>
+        <build version="1.0.2-dev, 2015-03-09">
+            <change>Dodanie "tipów" do pól formularza w edycji konkretnej translacji.</change>
+        </build>
+        <build version="1.0.1-dev, 2015-03-06">
+            <change>Wprowadzenie konfiguracji pól "context" oraz "module".</change>
+            <change>Usunięcie błędnie nadpisującej metody getLocales() w modelu I18n. Naprawienie błędnego pobierania
+                lokali w klasie tłumaczącej I18n.
+            </change>
+            <change>Dodanie przycisku edycji konkretnego tłumaczenia.</change>
+        </build>
+        <build version="1.0.0-dev, 2015-03-05">
+            <change>Dodanie kolumny usuwania tłumaczeń do listy.</change>
+            <change>Możliwość dołączania do tłumaczeń kontekstów i nazw modułów. Uzupełnienie dokumentacji.</change>
+        </build>
+    </branch>
+</root>

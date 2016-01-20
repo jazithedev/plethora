@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+	<branch value="1.0.x-dev">
+        <build version="1.1.0-dev">
+            <change>Dodanie działu z zadaniami Cron.</change>
+        </build>
+		<build version="1.0.5-dev, 2015-09-08">
+			<change>Poprawienie mniejszego błędu w widoku baz danych.</change>
+			<change>Naprawienie błędu w widoku `database` w przypadku, kiedy jeden z parametrów zapytania był obiekt.</change>
+			<change>Poprawienie małego błędu w widoku `database.php`.</change>
+			<change>Pomniejsze poprawienie ostylowania.</change>
+		</build>
+		<build version="1.0.4-dev, 2015-06-15">
+			<change>Drobne poprawienie stylów.</change>
+			<change>Ulepszenie sekcji benchmarka, która zawierać będzie również i markery czasowe.</change>
+			<change>Rozpoczęcie pracy nad mechanizmem przechowywania błędów PHP w toolbarze.</change>
+			<change>Utworzenie odnośnika do backendu.</change>
+			<change>Dodanie sekcji, przy pomocy której można całkowicie usunąć pasek z widoku.</change>
+		</build>
+		<build version="1.0.3-dev, 2015-06-11">
+			<change>Dalsze modyfikacje w sekcji zapytań bazy danych.</change>
+			<change>Utworzenie zawartości sekcji PHP, customów, zmiennych oraz modułów.</change>
+		</build>
+		<build version="1.0.2-dev, 2015-06-10">
+			<change>Poszerzenie informacji w sekcji tras routingu.</change>
+			<change>Poszerzenie informacji w sekcji zapytań bazy danych</change>
+		</build>
+		<build version="1.0.1-dev, 2015-06-09">
+			<change>Dalsze prace nad powiększaniem funkcjonalności paska dewelopera.</change>
+		</build>
+		<build version="1.0.0-dev, 2015-06-08">
+			<change>Utworzenie modułu.</change>
+		</build>
+	</branch>
+</root>

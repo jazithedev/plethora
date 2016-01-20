@@ -1,0 +1,90 @@
+{
+    "no_context": {
+        "module.base": "Base systems",
+        "section.dashboard": "Base systems",
+        "section.cron": "Cron",
+        "section.files": "Files",
+        "backend.mainmenu.system": "System",
+        "backend.mainmenu.contents": "Content",
+
+        "Hello!": "Hello!",
+        "Hello :user": "Hello :user",
+
+        "Logout": "Logout",
+        "Language": "Language",
+
+        "backend.submenu.system.dashboard": "Dashboard",
+        "backend.submenu.system.run_cron": "Run Cron",
+        "backend.submenu.system.files_list": "Files list",
+
+        "Dashboard": "Dashboard",
+
+        "Run Cron jobs manually": "Run Cron jobs manually",
+        "run Cron jobs": "run Cron jobs",
+        "Click above button to run all cron jobs manually.": "Click above button to run all cron jobs manually.",
+        "loading...": "loading...",
+
+        "Page unauthorized!": "Page unauthorized!",
+        "Page not found!": "Page not found!",
+
+        "ID": "ID",
+        "Title": "Title",
+        "Description": "Description",
+        "File name": "File name",
+        "File extension": "File extension",
+        "File path": "File path",
+        "File MIME type": "File MIME type",
+        "File size": "File size",
+        "File size in KB.": "File size in KB.",
+        "Temporary": "Temporary",
+        "Permanent": "Permanent",
+        "Status": "Status",
+
+        "Success": "Success",
+        "Warning": "Warning",
+        "Danger": "Danger",
+
+        "Close": "Close",
+        "File does not exists (path: \":path\").": "File does not exists (path: \":path\").",
+
+        "This e-mail was generated automatically. Please, do not respond.": "This e-mail was generated automatically. Please, do not respond.",
+        "All best,": "All best,",
+
+        "Error occured in the form": "Error occured in the form",
+
+        "Welcome on your new website!": "Welcome on your new website!",
+        "Click the button below to login and start managing. Enjoy!": "Click the button below to login and start managing. Enjoy!",
+        "login page": "login page",
+        "You are logged! Go and see whats in your management panel ;).": "You are logged! Go and see whats in your management panel ;).",
+        "go to management panel": "go to management panel",
+
+        "not translated": "not translated",
+
+        "search": "search",
+        "Results amount:": "Results amount:",
+        "List is empty.": "List is empty.",
+
+        "clear": "clear",
+        "edit": "edit",
+        "delete": "delete",
+        "previous": "previous",
+        "next": "next",
+        "remove file": "remove file",
+        "read more": "read more",
+        "Save configuration": "Save configuration",
+
+        "author": "author",
+        "changelog": "changelog",
+
+        "Main page": "Main page",
+
+        "add value": "add value",
+
+        "Check": "Check",
+        "Uncheck": "Uncheck",
+        "all options": "all options",
+
+        "Start to manage!" : "Start to manage!",
+        "dashboard.hello.msg" : "Welcome on your website management panel! Click an option in the sidebar to go to the proper management section of this page."
+    }
+}

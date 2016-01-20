@@ -1,0 +1,20 @@
+{
+    "no_context" : {
+        "module.pages" : "Strony proste",
+        "section.pages" : "Strony proste",
+        "Add pages" : "Dodaj stronę",
+        "backend.submenu.contents.pages_add" : "Dodaj stronę",
+        "backend.submenu.contents.pages_list" : "Lista stron",
+
+        "Published" : "Opublikowany",
+        "Title" : "Tytuł",
+        "URL alias" : "Alias URL",
+        "Keywords" : "Słowa kluczowe",
+        "Image" : "Obrazki",
+        "Attachments" : "Załączniki",
+        "Description" : "Opis",
+        "Content" : "Zawartość",
+        "Edit page" : "Edytuj stronę prostą",
+        "Preview" : "Podgląd"
+    }
+}

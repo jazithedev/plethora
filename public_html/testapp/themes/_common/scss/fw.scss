@@ -1,0 +1,32 @@
+div.form {
+	.form-field {
+		position: relative;
+		
+		&-langbuttons { position: absolute; top: 0; right: 0; }
+		&-langbuttons img.multilang_button { cursor: pointer; }
+		&-langbuttons img.multilang_button.multilang_checked { border: 2px solid #428BCA; }
+		&-value { position: relative; margin-bottom: 2px; }
+		&-errors { margin: 10px 0; }
+		&-errors ul { padding: 0; }
+		&-errors ul li.alert { padding: 6px 15px; margin-bottom: 2px; list-style: none; }
+		&-delete { position: absolute; right: 0; top: 0; }
+		&-value div.form-field-delete + div.form-field-content { padding-right: 80px; }
+	}
+}
+
+// FORM language checker styles
+div#form-language-checker {
+    text-align: right;
+    &-container { display: inline-block; border: 1px solid #ccc; border-radius: 4px; overflow: hidden;  }
+    &-container div.form-language-checker-single { float: left; text-align: center; }
+    &-container div#form-language-checker-single-num-0 a { cursor: not-allowed; }
+    &-container div.form-language-checker-single label { display: none; }
+    &-container div.form-language-checker-single span.form-language-checker-single-flag { display: block; }
+    &-container div.form-language-checker-single span.form-language-checker-single-flag a { display: block; padding: 10px 8px; }
+    &-container div.form-language-checker-single span.form-language-checker-single-flag a img { display: block; }
+
+    &-container div.form-language-checker-single.disabled a { background-color: #DB7E7D; }
+    &-container div.form-language-checker-single.disabled a:hover { background-color: darken(#DB7E7D, 10%); }
+    &-container div.form-language-checker-single.active a { background-color: #77AD77; }
+    &-container div.form-language-checker-single.active a:hover { background-color: darken(#77AD77, 10%); }
+}

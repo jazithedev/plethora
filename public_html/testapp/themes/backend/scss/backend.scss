@@ -1,0 +1,108 @@
+$widthPage: 1000px;
+$borderRadiusSize: 4px;
+$baseFontSizePx: 14px;
+$baseFontSize: 1.125em;
+
+$sPathAssets: '/assets/';
+
+@import '../../_common/scss/helpfull';
+@import '../../_common/scss/functions';
+@import '../../_common/scss/fw';
+
+$colorBootstrapError: #a94442;
+
+body { padding-top: 50px; }
+body.dev_toolbar #footer { height: 90px; padding-bottom: 30px; }
+
+label { max-width: none; }
+
+div#wrap nav.navbar a.navbar-brand-logo { padding: 13px 15px; line-height: 50px; }
+div#wrap nav.navbar a.navbar-brand-logo img { height: 25px; }
+div#wrap > .container { padding: 10px 15px 0; }
+
+table.backend_list tr td.options { width: auto; }
+table.backend_list tr td.options a { text-decoration: none; cursor: pointer; margin: 0 2px; }
+table.backend_list tr td.options a.glyphicon-move { cursor: move; }
+
+div.search_engine_form > div.single_field.single_field_checkbox input { margin: 0; }
+
+// FORM STYLES
+form div.form-error p.header { font-weight: bold; font-size: 16px; }
+form div.form-group div.form-field-label label span.error { color: $colorBootstrapError; }
+form div.form-group div.form-field-label label span.required { color: red; }
+form div.form-group div.form-field-errors ul.error li {  }
+form div.form-group div.form-field-errors ul.error li span.content { padding-left: 15px; }
+
+form div.form-group.form-field-type-checkbox { overflow: auto; }
+form div.form-group.form_field_checkbox div.check_uncheck_all span { cursor: pointer; text-decoration: underline; }
+
+form p.submit { text-align: right; margin-top: 5px; }
+
+form div.form-group div.form-field-content button.remove_file { display: inline-block; }
+form div.form-group.form-field-type-image input { display: inline-block; }
+
+form div.form-error ul { padding-top: 15px; }
+form div.form-error ul li { padding-top: 5px; }
+form div.form-error ul li span.error_content { padding-left: 15px; }
+
+// FORM language checker styles
+div#form-language-checker {
+	text-align: right;
+	&-container { display: inline-block; border: 1px solid #ccc; border-radius: 4px; overflow: hidden;  }
+	&-container div.form-language-checker-single { float: left; text-align: center; }
+	&-container div#form-language-checker-single-num-0 a { cursor: not-allowed; }
+	&-container div.form-language-checker-single label { display: none; }
+	&-container div.form-language-checker-single span.form-language-checker-single-flag { display: block; }
+	&-container div.form-language-checker-single span.form-language-checker-single-flag a { display: block; padding: 10px 8px; }
+	&-container div.form-language-checker-single span.form-language-checker-single-flag a img { display: block; }
+
+	&-container div.form-language-checker-single.disabled a { background-color: #DB7E7D; }
+	&-container div.form-language-checker-single.disabled a:hover { background-color: darken(#DB7E7D, 10%); }
+	&-container div.form-language-checker-single.active a { background-color: #77AD77; }
+	&-container div.form-language-checker-single.active a:hover { background-color: darken(#77AD77, 10%); }
+}
+
+/* form other styles */
+span.form_tooltip { cursor: help; color: #428BCA; }
+
+/* overwritten bootstrap */
+.form-inline select.form-control { width: 100%; }
+
+/* local actions */
+div#local_actions_container { margin: 20px; }
+
+/* bootstrap multilevel navbar */
+.dropdown-submenu { position: relative; }
+.dropdown-submenu > .dropdown-menu { top: 0; left: 100%; margin-top: -6px; margin-left: -1px; -webkit-border-radius: 0 6px 6px 6px; -moz-border-radius: 0 6px 6px; border-radius: 0 6px 6px 6px; }
+.dropdown-submenu:hover>.dropdown-menu { display: block; }
+.dropdown-submenu > a:after { width: 0; height: 0; display: block; content: " "; float: right; margin-top: 5px; margin-right: -10px;
+							  border-color: transparent; border-style: solid; border-width: 5px 0 5px 5px;  border-left-color: #ccc; }
+.dropdown-submenu:hover > a:after { border-left-color: #fff; }
+.dropdown-submenu.pull-left { float: none; }
+.dropdown-submenu.pull-left > .dropdown-menu { left: -100%; margin-left: 10px; 
+											   -webkit-border-radius: 6px 0 6px 6px; -moz-border-radius: 6px 0 6px 6px; border-radius: 6px 0 6px 6px; }
+
+// RESPONSIVE WEB DESIGN - RWD
+@media (min-width: 768px) {
+	div.search_engine_form { text-align: center; }
+	div.search_engine_form div.single_field { width: 19%; margin-top: 5px; }
+	div.search_engine_form div.single_field label { float: left; }
+}
+
+/**
+ * ------------------------------------------------------------
+ *  BACKEND SORTING PAGE
+ * ------------------------------------------------------------
+ */
+div#sorted_list {
+	ol { padding-left: 20px; }
+	ol li { line-height: 30px; border-top: 1px solid #DDD; }
+	ol li.ui-sortable-placeholder { height: auto; background-color: #F0AD4E; display: block; visibility: visible !important; }
+	ol li.ui-sortable-helper { border-top: 0; }
+	ol li div { padding: 0 7px; }
+	ol li div:hover { background-color: #F5F5F5; }
+	ol li div .glyphicon { margin-right: 5px; }
+	ol li div span.move { color: #337AB7; cursor: move; }
+	
+	& > ol > li { border-top: 0; }
+}

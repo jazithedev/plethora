@@ -1,0 +1,33 @@
+@import '../../_common/scss/fw';
+@import './AdminLTE.min';
+@import './skins/skin-red.min';
+
+/**
+ * ------------------------------------------------------------
+ *  LEFT MENU
+ * ------------------------------------------------------------
+ */
+div.menu_name_main-menu-backend {
+    ul.sidebar-menu {  }
+    ul.sidebar-menu a i.fa { display: inline-block; }
+    ul.sidebar-menu a span { display: inline-block; white-space: normal; padding-right: 15px; }
+    ul.sidebar-menu ul ul a i.fa { vertical-align: top; margin-top: 4px; }
+}
+
+/**
+ * ------------------------------------------------------------
+ *  BACKEND SORTING PAGE
+ * ------------------------------------------------------------
+ */
+div#sorted_list {
+	ol { padding-left: 20px; }
+	ol li { line-height: 30px; border-top: 1px solid #DDD; }
+	ol li.ui-sortable-placeholder { height: auto; background-color: #F0AD4E; display: block; visibility: visible !important; }
+	ol li.ui-sortable-helper { border-top: 0; }
+	ol li div { padding: 0 7px; }
+	ol li div:hover { background-color: #F5F5F5; }
+	ol li div .glyphicon { margin-right: 5px; }
+	ol li div span.move { color: #337AB7; cursor: move; }
+	
+	& > ol > li { border-top: 0; }
+}

@@ -1,0 +1,23 @@
+{
+    "no_context": {
+        "module.i18n": "Tłumaczenia interfejsu",
+        "section.i18n": "Tłumaczenia interfejsu",
+        "Interface translations" : "Tłumaczenia interfejsu",
+
+        "Last reload date": "Ostatnia data odświeżenia cache",
+        "Available languages": "Dostępne języki",
+        "Translations amount per lang": "Ilość tłumaczeń na język",
+
+        "Cache has been successfully reloaded.": "Pliki cache tłumaczeń zostały utworzone ponownie.",
+        "Reload cache": "Przeładuj cache",
+        "i18n.backend.main.description": "W tym miejscu możesz sprawdzić podstawowe informacje o tłumaczeniach oraz wykonać na nich pewne operacje.",
+        "i18n.backend.main.not_cached" : "Tłumaczenia nie zostały zbuforowane. Aby to naprawić, skorzystaj z opcji \"Przeładuj cache\".",
+
+        "i18n.backend.table.label" : "Etykieta",
+        "i18n.backend.table.val" : "Wartość",
+
+        "Translations per application part" : "Ilość tłumaczeń na część aplikacji",
+        "Application" : "Aplikacja",
+        "Modules" : "Moduły"
+    }
+}

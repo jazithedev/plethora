@@ -1,0 +1,99 @@
+{
+    "no_context": {
+        "user": "Użytkownik",
+        "Add user": "Dodaj użytkownika",
+        "module.user": "Użytkownicy",
+        "section.user": "Użytkownicy",
+        "section.user\\role": "User roles",
+        "section.user\\permission": "User permissions",
+
+        "backend.submenu.system.users": "Lista użytkowników",
+        "backend.submenu.system.roles_list": "Lista ról użytkowników",
+        "backend.submenu.system.permission_list": "Lista uprawnień użytkowników",
+
+        "I forgot password": "Nie pamiętam hasła",
+        "I want to register an account": "Chcę zarejestrować nowe konto",
+
+        "Name": "Nazwa",
+        "ID": "Identyfikator",
+        "Firstname": "Imię",
+        "Lastname": "Nazwisko",
+        "Nickname": "Pseudonim",
+        "Password": "Hasło",
+        "City": "Miasto",
+        "Image": "Obrazek",
+        "Roles": "Role",
+        "Description": "Opis",
+        "User profile": "Profil użytkownika",
+        "Security field": "Pole bezpieczeństwa",
+        "Login form": "Formularz logowania",
+        "Login page": "Strona logowania",
+        "Incorrect login data": "Niepoprawne dane logowania",
+        "Logout": "Wyloguj",
+        "Wrong password passed. Try again.": "Przekazano złe hasło. Spróbuj ponownie.",
+        "Register Your account": "Zarejestruj swoje konto",
+
+        "Change password": "Zmień hasło",
+        "Password changed successfully.": "Hasło zostało zmienione w pełni poprawnie.",
+
+        "user\role": "Role użytkowników",
+        "Add user_role": "Dodaj rolę",
+
+        "Permissions": "Uprawnienia",
+        "user\\permission": "Uprawnienia użytkowników",
+        "Add user_permission": "Stwórz uprawnienie",
+
+        "Your account has been registered successfully. Activation link has been sent to your mailbox. Click it to make the final activation.": "Twoje konto zostało w pełni poprawnie zarejestrowane. Na Twoje konto pocztowe został wysłany e-mail z linkiem aktywacyjnym. Kliknij w niego aby sfinalizować rejestrację.",
+        "Activate your new account": "Aktywuj swoje nowe konto",
+        ":appname - Activation link": ":appname - Link aktywacyjny",
+        "Password recovery": "Odyskiwanie hasła",
+        "Cannot use password recovery system while being logged in!": "Nie można korzystać z funkcji odzyskiwania hasła będąc zalogowanym.",
+        "Message has been sent on your e-mail address. Click on the link from it's content to recover password to your account.": "Wiadomość została wysłana na Twój adres e-mail. Kliknij w link zawarty w jego treści aby odzyskać dostęp do swojego konta.",
+        "New password": "Nowe hasło",
+        "Your password has been successfully changed to the new one.": "Twoje hasło zostało zmienione na nowe.",
+        "Password has been changed successfully.": "Hasło zostało zmienione.",
+
+        "Account activation on :app": "Aktywaja konta na :app",
+
+        "Error occured": "Wystąpił błąd",
+        "This page does not exists.": "Taka strona nie istnieje.",
+
+        "Your profile has been modified successfully.": "Dane Twojego konta zostały poprawnie zmodyfikowane.",
+        "View profile": "Pokaż profil",
+        "Edit profile": "Edytuj profil",
+
+        "Confirm password": "Potwierdź hasło",
+        "Confirm new password": "Potwierdź nowe hasło",
+        "Confirm e-mail": "Potwierdź e-mail",
+
+        "This value can contain only letters, numbers and \"-\" or \"_\" characters.": "Ta wartość może zawierać jedynie litery, liczby oraz znaki \"-\" lub \"_\".",
+
+        "Enter new password for Your account:": "Wpisz nowe hasło do swojego konta:",
+
+        "contact": "kontakt",
+        "CONTACT": "KONTAKT",
+
+        "An error occurred while recovering access to your account. The reason may be one of the following points": "An error occurred while recovering access to your account. The reason may be one of the following points",
+        "recovery operation has already been made under this link;": "recovery operation has already been made under this link;",
+        "link from the e-mail was not fully copied into your browser's address field.": "link from the e-mail was not fully copied into your browser's address field.",
+        "If none of the above reasons does not solve the problem, please contact us via the :contact section.": "If none of the above reasons does not solve the problem, please contact us via the :contact section.",
+        "Enter Your e-mail address to recover access to Your account.": "Enter Your e-mail address to recover access to Your account.",
+
+        "Hello :login": "Hello :login",
+        "We were asked to change password on your account registered on :site_name site. To do this, click on the link below:": "Zostaliśmy poproszeni o zmianę hasła do Twojego konta na :site_name site. Aby tego dokonać, kliknij poniższy link:",
+        "Password recovery link": "Link odzyskiwania hasła",
+
+        "If the above operation is not made by you, report it to us through the :contact section.": "Jeśli nie dokonywałeś powyższej operacji, zgłos to do nas poprzez dział :contact.",
+
+        "You have entered wrong username or password. Try again.": "Wpisano zły login lub hasło. Spróbuj ponownie.",
+
+        "You have successfully logged out from the site.": "Wylogowano ze strony",
+
+        "Admin account cannot be removed!" : "Konto administratora nie może zostać usunięte!!",
+
+        "Enter your password" : "Wprowadź swoje hasło",
+        "This field is used for a security purposes." : "To pole wykorzystywane jest do celów bezpieczeństwa",
+
+        "to.many.incorrect.logins" : "Zbyt wiele nieudanych prób logowania. Należy odczekać chwilę, aby móc znowu się zalogować."
+    }
+}

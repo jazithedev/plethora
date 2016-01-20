@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+	<branch value="1.0.x-dev">
+		<build version="1.2.0-dev, 2015-09-09">
+			<change>Implementacja metody aktualizującej bazę danych i nie wykorzystującej funkcji `shell_exec()`.</change>
+		</build>
+		<build version="1.1.1-dev, 2015-08-06">
+			<change>Kolejna modyfikacja w `cli-config.php`. Dane do bazy danych będą teraz pobierane z plików konfiguracyjnych aplikacji.</change>
+		</build>
+		<build version="1.1.1-dev, 2015-08-03">
+			<change>Zmiana w `cli-config.php`. Od teraz inaczej znajduje nazwę aktualnej aplikacji.</change>
+		</build>
+		<build version="1.1.0-dev, 2015-06-27">
+			<change>Przeniesienie narzędzi Doctrine do modułu.</change>
+		</build>
+		<build version="1.0.1-dev, 2015-04-12">
+			<change>Naprawienie błędu powodującego niewyświetlenie całego outputu z dokonania aktualizacji bazy (przy występowaniu, na przykład, błędów).</change>
+			<change>Dodanie wyświetlania jakich zapytań dokonuje Doctrine Update.</change>
+		</build>
+		<build version="1.0.0-dev, 2015-03-19">
+			<change>Poprawienie funkcji generującej URL do backendu.</change>
+		</build>
+	</branch>
+</root>

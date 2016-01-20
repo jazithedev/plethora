@@ -1,0 +1,30 @@
+<IfModule mod_php5.c>
+  php_flag engine on
+</IfModule>
+
+# Turn on URL rewriting
+RewriteEngine On
+
+Options +FollowSymlinks
+#RewriteCond %{HTTP_HOST} ^www.domain.com
+#RewriteRule ^(.*)$ http://domain.com/$1 [R=permanent,L]
+
+# Protect hidden files from being viewed
+<Files .*>
+	Order Deny,Allow
+	Deny From All
+</Files>
+
+# Installation directory
+RewriteBase /
+
+# Google site veryfication
+#RewriteRule ^google532a338ed0e1d8e9.html$ google532a338ed0e1d8e9.html [L]
+
+# Allow any files or directories that exist to be displayed directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Rewrite all other URLs to index.php/URL
+RewriteRule ^([a-zA-Z0-9-=_/\[\]<>:()$\.]+)$ index.php?linktoframework=$1 [L,QSA]
+RewriteRule ^([a-zA-Z0-9-=_/\[\]<>:()$\.]+).html$ index.php?linktoframework=$1 [L,QSA]

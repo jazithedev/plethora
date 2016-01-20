@@ -1,0 +1,117 @@
+{
+    "no_context": {
+        "Version": "Wersja",
+        "All rights reserved.": "Wszystkie prawa zastrzeżone.",
+        "Toggle navigation": "Przełącz nawigację",
+        "User Image": "Obrazek Użytkownika",
+        "Member since :date" : "Zarejestrowany od :date",
+        "Profile" : "Profil",
+
+        "Home": "Strona główna",
+        "Error": "Błąd",
+        "List": "Lista",
+        "Management panel": "Panel zarządzania",
+
+        "Edit entry": "Edytuj wpis",
+        "Add entry": "Dodaj wpis",
+        "Sort entries": "Sortuj wpisy",
+        "Delete item": "Usuń pozycję",
+        "Search engine" : "Wyszukiwarka",
+
+        "Wrong node type.": "Zły typ węzła.",
+        "Name of the route cannot be empty!": "Nazwa trasy nie może być pusta!",
+        "Name \"perm\" is reserved and cannot be used!": "Nazwa \"perm\" jest zarezerwowana i nie może zostać użyta!",
+        "List of objects is empty.": "Lista obiektów jest pusta.",
+        "Entries list is empty.": "Lista wpisów jest pusta.",
+        "Add operation was successful.": "Operacja dodawania przebiegła pomyślnie.",
+        "Edit operation was successful.": "Operacja edycji przebiegła pomyślnie.",
+        "Entry has been deleted successfully.": "Pomyślnie usunięto wpis.",
+        "Are you sure that want to remove item <b>:name</b> with id <b>:id</b> from <b>:section</b> section?": "Czy aby na pewno chcesz usunąć wpis <b>:name</b> o identyfikatorze <b>:id</b> z sekcji <b>:section</b>?",
+
+        "Content with particular id does not exist.": "Zawartość z podanym identyfikatorem nie istnieje.",
+        "Permission denied.": "Brak uprawnień.",
+        "Access denied.": "Brak dostępu.",
+
+        "send": "wyślij",
+
+        "Type of system message must be one of these: success, info, warning, danger.": "Typ wiadomości systemowej może być tylko i wyłącznie jeden z następujących: success, info, warning, danger.",
+        "Bad request token. Please, send the form once again.": "Błędny token żądania. Prosimy wysłać formularz jeszcze raz.",
+        "Insufficient amount of values given for this field (should be :number).": "Podano niewystarczającą ilość wartości dla podanego pola (powinno być: :number).",
+        "Too hight amount of values given for this field (should be :number).": "Podano zbyt dużą ilość wartości dla danego pola (powinno być: :number).",
+        "The amount of values for this field should be :number (:amount given).": "Ilość wartości dla tego pola powinna wynosić: :number (podano :amount).",
+
+        "Cannot get value from \":name\" property, because it does not exists in \":class\" class.": "Nie można pobrać wartości \":name\" ponieważ nie istnieje ona w klasie \":class\".",
+        "Cannot set value from \":name\" property, because it does not exists in \":class\" class.": "Nie można ustawić wartości \":name\" ponieważ nie istnieje ona w klasie \":class\".",
+
+        "Files for \":themename\" theme do not exist.": "Pliki szablonu \":themename\" nie istnieją.",
+        "Given value must be a number.": "Podana wartość musi być liczbą.",
+        "Given value must be one of these values: ": "Podana wartość musi być jedną z następujących: ",
+
+        "In the purpose of security, you must prove that you are not a bot.": "W celu bezpieczeństwa, musisz udowodnić, że nie jesteś botem.",
+
+        "Cannot set quantity for form field of \"Checkbox\" type.": "Nie można ustawić ilości wartości dla pól formularza typu \"Checkbox\".",
+        "To make this field work properly, there must be a broker model name set.": "Aby ten typ pola mógł działać poprawnie, należy ustawić nazwę modelu typu \"broker\".",
+        "Password confirmation": "Potwierdzenie hasła",
+        "Form data submitted.": "Dane formularza zostały przesłane.",
+
+        "Error occured while saving data in database.": "Wystąpił błąd podczas zapisu danych do bazy danych.",
+        "Route with name \":routename\" was added to the routing table twice!": "Trasa z nazwą \":routename\" została podana do tablicy tras co najmniej dwukrotnie!",
+
+        "Given value is empty.": "Podana wartość jest pusta.",
+        "The amount of values must be higher than 0.": "To pola powinno zawierać przynajmniej jedną wartość.",
+        "One of the values is empty.": "Jedna z wartości tego pola jest pusta.",
+        "The value of this field must be the same as the value of the previous field.": "Wartość tego pola musi być identyczna co wartość pola poprzedniego.",
+
+        "Field value \":file\" need to be formatted to string format (:type at the moment).": "Wartość pola \":file\" musi zostać przeformatowana jako łańcuch znaków (w chwili obecnej jest to :type).",
+
+        "Minimal file size: :sizeKB.": "Minimalna wielkość pliku: :sizeKB.",
+        "Maximal file size: :sizeKB.": "Maksymalna wielkość pliku: :sizeKB.",
+        "Can upload files only with these extensions: :ext.": "Można przesyłać pliki tylko z następującymi rozszerzeniami: :ext.",
+        "Can upload files of only those types: :types.": "Można przesyłać pliki tylko o następującym typie: :types.",
+
+        "Minimal length: :amount characters": "Minimalna długość: :amount characters",
+        "Maximal length: :amount characters": "Maksymalna długość: :amount characters",
+        "The value can contain only letters.": "Wartość może składać się jedynie z liter.",
+        "Regex expression restrictions: :regex.": "Warunki pochodzące z wyrażenia regularnego: :regex.",
+
+        "Given value is not a string.": "Podana wartość nie jest łańcuchem znaków.",
+        "At least one value for this field must be picked.": "Co najmniej jedna wartość tego pola musi zostać wybrana.",
+        "Invalid value.": "Niewłaściwa wartość.",
+
+        "One of the given values already exists in the database.": "Jedna z podanych wartości już istnieje w bazie danych.",
+        "This value already exists in the database.": "Ta wartość już istnieje w bazie danych.",
+        "One of the values is incompatible with data from database.": "Jedna z wartości jest niekompatybilna z danymi pochodzącymi z bazy danych.",
+        "Value is incompatible with data from database.": "Wartość jest niekompatybilna z danymi pochodzącymi z bazy danych.",
+
+        "Given date cannot be empty.": "Podana data nie może być pusta.",
+        "Given date is invalid.": "Podano niepoprawną datę.",
+
+        "Given value cannot be empty.": "Podana wartość nie może być pusta.",
+        "Uploaded file is too small (:size2KB)! It's minimal size should be :sizeKB.": "Wgrany plik jest za mały (:size2KB)! Jego minimalna wielkość powinna wynosić :sizeKB.",
+        "Uploaded file is too big (:sizenewKB)! It's maximal size should be :sizeneedKB.": "Wgrany plik jest za duży (:sizenewKB)! Jego maksymalna wielkość powinna wynosić :sizeneedKB.",
+        "File with wrong format uploaded! Allowed types of files: :exts.": "Wgrano plik o złym formacie! Dozwolone są następujące typy plików: :exts.",
+        "Invalid file type (:invalid_type)! List of allowed fields types: :types.": "Niepoprawny typ pliku (:invalid_type)! Lista dozwolonych typów: :types.",
+
+        "Invalid value - it's not a number.": "Niepoprawna wartość - nie jest liczbą.",
+        "Given value is lower than :num.": "Podana wartość jest niższa niż :num.",
+        "Given value is higher than :num.": "Podana wartość jest wyższa niż :num.",
+        "This value must be an unsigned number.": "Wartość musi być liczbą dodatnią.",
+        "This value must be an integer.": "Ta wartość musi być liczbą całkowitą.",
+        "Particular value should be a float with :decimal places after the decimal point.": "Wartość powinna być liczbą dziesiętną z :decimal miejscami po przecinku.",
+
+        "The specified value does not meet the requirements for specified regular expression formula: :regex": "Podana wartość nie spełnia wymogów utworzonych przez następujące wyrażenie regularne: :regex",
+
+        "Given e-mail address is invalid.": "Podany adres e-mail jest niepoprawny.",
+        "The amount of this string characters cannot be lower than :num." : "Ilość znaków w tej wartości nie może być mniejsza niż :num.",
+        "The amount of this string characters cannot be greater than :num.": "Ilość znaków w tej wartości nie może być większa niż :num.",
+        "Value of this and previous field must be the same.": "Wartości tego i poprzedniego pola muszą być identyczne.",
+        "This value must contain at least one number.": "Ta wartość musi zawierać w sobie przynajmniej jedną liczbę.",
+        "This value must contain at least one text character.": "Ta wartość musi zawierać w sobie przynajmniej jedną literę.",
+        "This value must contain at least one uppercase text character.": "Ta wartość musi zawierać w sobie przynajmniej jedną dużą literę.",
+        "This value must contain letters only.": "Ta wartość musi składać się jedynie z liter alfabetu.",
+        "This value should contain only letters and some of the characters (:chars).": "Ta wartość powinna składać się jedynie z liter i niektórych znaków (:chars).",
+        "This value should contain letters, numbers and some of the characters (:chars).": "Ta wartość powinna składać się jedynie z liter, liczb i niektórych znaków (:chars).",
+        "Particular value is not an URL.": "Podana wartość nie jest poprawnym adresem URL",
+        "Value is invalid for this regular expression: :exp": "Niepoprawna wartość dla wyrażenia regularnego: :exp"
+    }
+}

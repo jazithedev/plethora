@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+	<branch value="1.0.x-dev">
+        <build version="1.0.1, 2015-10-11">
+            <change>Modernizacja kodu.</change>
+            <change>Usunięcie flagi "dev" z modułu.</change>
+        </build>
+		<build version="1.0.0-dev, 2015-05-09">
+			<change>Utworzenie modułu.</change>
+		</build>
+	</branch>
+</root>

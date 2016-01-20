@@ -1,0 +1,1 @@
+<p class="comm_logout"><?= __('You have successfully logged out from the site.') ?></p>

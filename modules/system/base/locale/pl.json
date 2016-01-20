@@ -1,0 +1,90 @@
+{
+    "no_context": {
+        "module.base": "Systemy bazowe",
+        "section.dashboard": "Systemy bazowe",
+        "section.cron": "Cron",
+        "section.files": "Pliki",
+        "backend.mainmenu.system": "System",
+        "backend.mainmenu.contents": "Zawartość",
+
+        "Hello!": "Witaj!",
+        "Hello :user": "Witaj :user",
+
+        "Logout": "Wyloguj",
+        "Language": "Język",
+
+        "backend.submenu.system.dashboard": "Kokpit",
+        "backend.submenu.system.run_cron": "Uruchom Cron",
+        "backend.submenu.system.files_list": "Lista plików",
+
+        "Dashboard": "Kokpit",
+
+        "Run Cron jobs manually": "Uruchom zadania Cron manualnie",
+        "run Cron jobs": "uruchom Cron Jobs",
+        "Click above button to run all cron jobs manually.": "Kliknij powyższy przycisk aby uruchomić zadania cron manualnie.",
+        "loading...": "ładowanie...",
+
+        "Page unauthorized!": "Brak dostępu do strony!",
+        "Page not found!": "Strona nie znaleziona.",
+
+        "ID": "ID",
+        "Title": "Tytuł",
+        "Description": "Opis",
+        "File name": "Nazwa pliku",
+        "File extension": "Rozszerzenie pliku",
+        "File path": "Ścieżka do pliku",
+        "File MIME type": "Typ MIME pliku",
+        "File size": "Rozmiar pliku",
+        "File size in KB.": "Rozmiar pliku w KB.",
+        "Temporary": "Tymczasowy",
+        "Permanent": "Stały",
+        "Status": "Status",
+
+        "Success": "Sukces",
+        "Warning": "Uwaga",
+        "Danger": "Uwaga",
+
+        "Close": "Zamknij",
+        "File does not exists (path: \":path\").": "Plik nie istnieje (ścieżka: \":path\").",
+
+        "This e-mail was generated automatically. Please, do not respond.": "Ten e-mail został wygenerowany automatycznie. Prosimy na niego nie odpowiadać.",
+        "All best,": "Wszystkiego dobrego,",
+
+        "Error occured in the form": "Wystąpił błąd w formularzu",
+
+        "Welcome on your new website!": "Oto Twoja nowa strona internetowa!",
+        "Click the button below to login and start managing. Enjoy!": "Kliknij poniższy przycisk aby się zalogować i zacząć zarządzać! Baw się dobrze!",
+        "login page": "strona logowania",
+        "You are logged! Go and see whats in your management panel ;).": "Jesteś zalogowany! Zobacz co znajduje się w panelu zarządzania ;).",
+        "go to management panel": "idź do panelu zarządzania",
+
+        "not translated": "nie przetłumaczono",
+
+        "search": "szukaj",
+        "Results amount:": "Ilość wyników:",
+        "List is empty.": "Lista jest pusta.",
+
+        "clear": "wyczyść",
+        "edit": "edytuj",
+        "delete": "usuń",
+        "previous": "poprzedni",
+        "next": "następny",
+        "remove file": "usuń plik",
+        "read more": "czytaj więcej",
+        "Save configuration": "Zapisz konfigurację",
+
+        "author": "autor",
+        "changelog": "historia zmian",
+
+        "Main page": "Strona główna",
+
+        "add value": "dodaj wartość",
+
+        "Check": "Zaznacz",
+        "Uncheck": "Odznacz",
+        "all options": "wszystkie opcje",
+
+        "Start to manage!" : "Zacznij zarządzać!",
+        "dashboard.hello.msg" : "Witaj w panelu zarządzania stroną internetową! Kliknij w opcję z menu bocznego aby przejść do odpowiedniej sekcji."
+    }
+}

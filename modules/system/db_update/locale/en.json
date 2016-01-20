@@ -1,0 +1,14 @@
+{
+    "no_context": {
+        "module.db_update" : "Database update",
+        "section.dbupdate" : "Database update",
+
+        "make update" : "make update",
+        "Database updated successfully." : "Database updated successfully.",
+        "Error" : "Error",
+
+        "Click the button below to update database." : "Click the button below to update database.",
+        "Output data" : "Output data",
+        "Queries done (in amount of :amount):" : "Queries done (in amount of :amount):"
+    }
+}

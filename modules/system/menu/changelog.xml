@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+	<branch value="1.0.x-dev">
+        <build version="1.3.0-dev">
+            <change>Poprawienie generowania menu sposobem poprzez tablice.</change>
+            <change>Umożliwienie skonfigurowania klasy aktywnej trasy.</change>
+            <change>Usunięcie niektórych niepotrzebnych walidacji (dodawanych na podstawie modelu).</change>
+        </build>
+		<build version="1.2.0-dev, 2015-09-14/15/16/19">
+			<change>Implementacja generowania menu na podstawie modelu.</change>
+			<change>Dodanie możliwości nadawania klas poszczególnym pozycjom w menu.</change>
+			<change>Dodanie metody pobierającej tytuł menu.</change>
+			<change>Uzupełnienie dokumentacji niektórych metod.</change>
+            <change>Skorzystanie z traita `Sortable` dla modeli w `\Model\Menu\Item`.</change>
+            <change>Poprawienie błędu związanego z generowaniem URLi w menu bez parametrów.</change>
+		</build>
+		<build version="1.1.7-dev, 2015-09-09">
+			<change>Dodanie akcji lokalnych do listy sortowania.</change>
+		</build>
+		<build version="1.1.6-dev, 2015-08-23">
+			<change>Dodanie akcji lokalnej prowadzącej do akcji sortującej listy pozycji menu.</change>
+		</build>
+		<build version="1.1.5-dev, 2015-08-22">
+			<change>Imlementacja renderowania menu na podstawie instancji modelu.</change>
+			<change>Poprawienie dokumentacji.</change>
+		</build>
+		<build version="1.1.4-dev, 2015-08-21">
+			<change>W breadcrumbsach edycji pozycji menu pojawia się już dobry odnośnik do menu.</change>
+		</build>
+		<build version="1.1.3-dev, 2015-08-20">
+			<change>Dalsze prace nad UI dla menu.</change>
+		</build>
+		<build version="1.1.2-dev, 2015-08-19">
+			<change>Dalsze prace nad UI dla menu.</change>
+		</build>
+		<build version="1.1.1-dev, 2015-08-16">
+			<change>Dalsze prace nad UI dla menu.</change>
+		</build>
+		<build version="1.1.0-dev, 2015-08-15">
+			<change>Zaczęcie tworzenia UI dla menu.</change>
+		</build>
+		<build version="1.0.3-dev, 2015-06-01">
+			<change>Uzupełnienie dokumentacji.</change>
+		</build>
+		<build version="1.0.2-dev, 2015-04-27">
+			<change>Dodanie podświetlenia itemów menu jako aktywne będąc na innych trasach, nie znajdujących się w menu.</change>
+			<change>Uzupełnienie dokumentacji.</change>
+		</build>
+		<build version="1.0.1-dev, 2015-04-03">
+			<change>Dodanie klasy "block_menu" do widoku kontenera menu.</change>
+		</build>
+		<build version="1.0.0-dev, 2015-03-30">
+			<change>Utworzenie modułu z klasą generującą menu.</change>
+		</build>
+	</branch>
+</root>

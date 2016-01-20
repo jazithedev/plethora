@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+    <branch value="2.1.x-dev">
+        <build version="2.1.2-dev">
+            <change>Modernizacja względem nowej wersji alpha Plethory.</change>
+            <change>Poprawki w modelu.</change>
+            <change>Dodanie możliwości generowania ścieżki ostylowanego obrazka użytkownika.</change>
+            <change>Dodanie funkcjonalności blokowania logowania po N-tym niepoprawnym zalogowaniu.</change>
+        </build>
+        <build version="2.1.1-dev, 2015-12-29">
+            <change>Modernizacja względem nowej wersji alpha Plethory.</change>
+        </build>
+        <build version="2.1.0-dev, 2015-10-28">
+            <change>Modernizacja kodu niektórych plików.</change>
+            <change>Poprawienie funkcjonowania rejestracji użytkowników.</change>
+            <change>Usunięcie metod związanych z uprawnieniami z modelu użytkownika.</change>
+            <change>Dodanie walidowania danych modelu User.</change>
+            <change>Naprawienie funkcjonowania tooltipów w rejestracji.</change>
+            <change>Dodanie pola reprezentującego obrazka w formularzu edycji użytkownika.</change>
+            <change>Dodanie linku do odzyskiwania hasła w formularzu logowania.</change>
+            <change>Naprawienie systemu odzyskiwania hasła.</change>
+        </build>
+    </branch>
+    <branch value="2.0.x-dev">
+        <build version="2.0.0-dev, 2015-10-01">
+            <change>Dodanie obrazka użytkowników.</change>
+        </build>
+    </branch>
+    <branch value="1.1.x-dev">
+        <build version="1.1.2-dev, 2015-09-03">
+            <change>Usunięcie kolumny nawiązującej do ilości komentarzy użytkownika.</change>
+        </build>
+        <build version="1.1.1-dev, 2015-08-10">
+            <change>Uniemożliwienie pozostawienia pustej nazwy dla roli użytkownika oraz uprawnienia roli.</change>
+        </build>
+        <build version="1.1.0-dev, 2015-08-09">
+            <change>Zaktualizowanie modułu do nowych funkcjonalności we frameworku.</change>
+        </build>
+    </branch>
+    <branch value="1.0.x-dev">
+        <build version="1.0.10-dev, 2015-06-09">
+            <change>Poprawienie pomniejszego błędu związanego ze zmianami w regułach walidacyjnych (wcześniejsza zmiana
+                nazwy pewnej reguły).
+            </change>
+        </build>
+        <build version="1.0.9-dev, 2015-05-27">
+            <change>Poprawienie błędu przy zapisywaniu nowego hasła (po dokonaniu jego zmiany).</change>
+        </build>
+        <build version="1.0.8-dev, 2015-05-24">
+            <change>Dodanie tłumaczenia do formularza edycji profilu użytkownika.</change>
+        </build>
+        <build version="1.0.7-dev, 2015-05-04">
+            <change>Poprawienie pomniejszego błędu z formularzu logowania.</change>
+        </build>
+        <build version="1.0.6-dev, 2015-04-26">
+            <change>Poprawienie błędu w akcji logowania spowodowanej zmianami w generatorze formularzy od strony
+                frameworka.
+            </change>
+        </build>
+        <build version="1.0.5-dev, 2015-04-04">
+            <change>Poprawienie błędu w formularzu logowania użytkownika. Teraz nie przekierowuje na stronę główną po
+                skorzystaniu z formularza. Ponadto, jeśli użytkownik jest już zalogowany, przesyła na jego profil.
+            </change>
+        </build>
+        <build version="1.0.4-dev, 2015-03-15">
+            <change>Modyfikcja pliku konfiguracyjnego z trasami. Dostosowanie do przerobionej funkcjonalności dodawania
+                tras.
+            </change>
+        </build>
+        <build version="1.0.3-dev, 2015-03-04">
+            <change>Poprawienie "literówki" powodującej błąd w edycji profilu użytkownika.</change>
+            <change>Stworzenie nowego widoku dla funkcjonalności odzyskiwania hasła.</change>
+        </build>
+        <build version="1.0.2-dev, 2015-03-02">
+            <change>Naprawienie funkcjonalności odzyskiwania hasła.</change>
+        </build>
+        <build version="1.0.1-dev, 2015-02-20">
+            <change>Utworzenie klasy formularzy modelu użytkowników.</change>
+            <change>Poprawki zwiazane z modyfikacjami sposobu generowania formularza na podstawie modelu.</change>
+        </build>
+        <build version="1.0.0-dev, 2015-01-10">
+            <change>-</change>
+        </build>
+    </branch>
+</root>

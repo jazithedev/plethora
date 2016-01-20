@@ -1,0 +1,115 @@
+$sPathAssets: '/themes/_common/assets/' !default;
+
+$dvBgMain: #222D32;
+$dvBorder: #1A2226;
+$dvFontMain: #fff;
+
+@mixin dv_font_hover {
+	&:hover { color: darken($dvFontMain, 10%); }
+}
+
+@mixin spaces_between_records {
+	border-top: 1px dashed $dvBorder; border-bottom: 1px dashed $dvBorder; padding: 10px 0; margin: 10px 0;
+}
+
+body.dev_toolbar { padding-bottom: 30px; }
+
+.dv-button-hover { background-color: lighten($dvBgMain, 10%); cursor: pointer; }
+
+div#dev_toolbar {
+	width:      100%; position: fixed; bottom: 0; left: 0; z-index: 1030; background-color: $dvBgMain; font-size: em(12px, 14px); color: #fff;
+    border-top: 1px solid $dvBorder; font-family: Arial, Helvetica, sans-serif;
+
+	ul li { list-style: disc; padding-left: 10px; margin-left: 15px; }
+
+	& > div.dv-button { width: 35px; height: 30px; background: $dvBgMain url('#{$sPathAssets}modules/dev_toolbar/dev_toolbar.png') no-repeat center center / 50% auto; cursor: pointer;
+						border-bottom: 1px solid $dvBorder; border-right: 1px solid $dvBorder; position: absolute; bottom: 0; left: 0;
+						&:hover { @extend .dv-button-hover; }
+	}
+	& > div.dv-content {
+		height: 30px; padding: 0 0 0 10px; margin: 0 0 0 35px; border-bottom: 1px solid $dvBorder; border-right: 1px solid $dvBorder;
+
+		div.dv-section {
+			float: left; border-right: 1px solid $dvBorder;
+			&:first-of-type div.dv-section-header { padding-left: 0; }
+			&:last-of-type { border-right: 0; }
+			&.active:hover div.dv-section-header,
+				&.active.expanded div.dv-section-header { @extend .dv-button-hover; }
+
+			div.dv-section-header { line-height: 29px; padding: 0 10px; }
+			div.dv-section-header a { display: block; }
+			div.dv-section-header span.image { width: 16px; height: 16px; display: inline-block; background-color: transparent; vertical-align: middle; }
+			div.dv-section-content { width: 100%; max-height: 800px; padding: 10px; overflow-x: hidden; overflow-y: auto; position: absolute; bottom: 30px; left: 0; display: none; background-color: $dvBgMain; line-height: 25px;
+									 border-bottom: 1px solid $dvBorder;
+									 border-right: 1px solid $dvBorder;
+			}
+
+			&.control_panel div.dv-section-header span.image { background-image: url('#{$sPathAssets}modules/dev_toolbar/control_panel.png'); }
+			&.benchmark div.dv-section-header span.image { background-image: url('#{$sPathAssets}modules/dev_toolbar/benchmark.png'); }
+			&.benchmark div.dv-section-content table { width: 100%; }
+
+			&.database_queries div.dv-section-header span.image { background-image: url('#{$sPathAssets}modules/dev_toolbar/database.png'); }
+			&.database_queries div.dv-section-content ol { padding: 0; }
+			&.database_queries div.dv-section-content ol li { list-style: decimal; padding: 10px 0 10px 10px; border-bottom: 0; margin: 0 0 0 15px; line-height: 17px;
+															  &:first-of-type { border-top: 0; margin-top: 0; }
+															  &:nth-of-type(2n+1) { background-color: lighten($dvBgMain, 10%); }
+			}
+			&.database_queries div.dv-section-content ol li p { margin: 0; font-size: em(13px, 14px); }
+			&.database_queries div.dv-section-content ol li p span { width: 100px; display: inline-block; }
+			&.database_queries div.dv-section-content ol li p.sql { font-size: em(12px, 14px); padding-bottom: 5px; }
+
+			&.memory_usage span.image { background-image: url('#{$sPathAssets}modules/dev_toolbar/memory.png'); }
+			&.routing div.dv-section-header span.image { background-image: url('#{$sPathAssets}modules/dev_toolbar/routes.png'); }
+			&.routing div.dv-section-content div.single_route { width: 33.3333333%; line-height: 20px; float: left; }
+			&.routing div.dv-section-content div.single_route span.route_name { cursor: pointer; @include dv_font_hover; }
+			&.routing div.dv-section-content div.single_route div.additional_info { display: none; }
+			&.routing div.dv-section-content div.single_route.current span.route_name { font-weight: bold; text-decoration: underline; }
+			&.routing div.dv-section-content div.single_route.expanded { width: 100%; display: inline-block; clear: both; float: none; @include spaces_between_records; @include clearfix; }
+			&.routing div.dv-section-content div.single_route.expanded div.additional_info { display: block; padding-left: 15px; }
+			&.routing div.dv-section-content div.single_route.expanded div.additional_info > div { font-size: em(13px, 14px); }
+			&.routing div.dv-section-content div.single_route.expanded div.additional_info > div > span.name { width: 125px; display: inline-block; text-transform: uppercase; }
+			&.php span.image { background-image: url('#{$sPathAssets}modules/dev_toolbar/php.png'); }
+			&.php div.dv-section-content {
+				body {background-color: #ffffff; color: #000000;}
+				body, td, th, h1, h2 {font-family: sans-serif;}
+				pre { margin: 0px; font-family: monospace; }
+				a { color: #fff; }
+				a:link {color: #000099; text-decoration: none; background-color: #ffffff;}
+				a:hover {text-decoration: underline;}
+				table {border-collapse: collapse;}
+				.center {text-align: center;}
+				.center table { margin-left: auto; margin-right: auto; text-align: left;}
+				.center th { text-align: center !important; }
+				td, th { border: 1px solid #000000; font-size: 75%; vertical-align: baseline; padding: 5px; }
+				h1 { font-size: 150%; color: #fff; }
+				h2 {font-size: 125%;}
+				.p {text-align: left;}
+				.e {background-color: #ccccff; font-weight: bold; color: #000000;}
+				.h {background-color: #9999cc; font-weight: bold; color: #000000;}
+				.v {background-color: #cccccc; color: #000000;}
+				.vr {background-color: #cccccc; text-align: right; color: #000000;}
+				img {float: right; border: 0px;}
+				hr {width: 600px; background-color: #cccccc; border: 0px; height: 1px; color: #000000;}
+			}
+
+
+			&.variables div.dv-section-header span.image { background-image: url('#{$sPathAssets}modules/dev_toolbar/block.png'); }
+			&.variables div.dv-section-content p.var_name { font-weight: bold; border-top: 1px dashed $dvBorder; border-bottom: 1px dashed $dvBorder; }
+			&.variables div.dv-section-content p.empty { margin-left: 40px; }
+			&.variables div.dv-section-content table { margin-left: 40px; }
+			&.variables div.dv-section-content table tr td { border: 1px solid $dvBorder; padding: 7px; }
+			&.variables div.dv-section-content table tr td:first-of-type div { width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+			&.customs div.dv-section-header span.image { background-image: url('#{$sPathAssets}modules/dev_toolbar/customs.png'); }
+			&.files div.dv-section-header span.image { background-image: url('#{$sPathAssets}modules/dev_toolbar/files.png'); }
+			&.modules div.dv-section-header span.image { background-image: url('#{$sPathAssets}modules/dev_toolbar/modules.png'); }
+			&.modules div.dv-section-content ul li { list-style: none; margin: 0; padding: 0 10px; }
+			&.modules div.dv-section-content ul li:nth-of-type(2n+1) { background-color: lighten($dvBgMain, 10%); }
+			&.ajax div.dv-section-header span.image { background-image: url('#{$sPathAssets}modules/dev_toolbar/ajax.png'); }
+			&.cron div.dv-section-header span.image { background-image: url('#{$sPathAssets}modules/dev_toolbar/cron.png'); }
+			&.cron div.dv-section-content table { width: 100%; }
+
+			&.close_toolbar { float: right; }
+			&.close_toolbar div.dv-section-header span.image { background-image: url('#{$sPathAssets}modules/dev_toolbar/close.png'); }
+		}
+	}
+}

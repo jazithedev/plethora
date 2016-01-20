@@ -1,0 +1,23 @@
+{
+    "no_context": {
+        "module.i18n": "Interface translation",
+        "section.i18n": "Interface translation",
+        "Interface translations" : "Interface translations",
+
+        "Last reload date": "Last reload date",
+        "Available languages": "Available languages",
+        "Translations amount per lang": "Translations amount per lang",
+
+        "Cache has been successfully reloaded.": "Cache has been successfully reloaded.",
+        "Reload cache": "Reload cache",
+        "i18n.backend.main.description": "Here You can check basic informations about cached or non-cached translations and do some operations with them.",
+        "i18n.backend.main.not_cached" : "Translations are not cached. To fix it, use \"Reload cache\" option.",
+
+        "i18n.backend.table.label" : "Label",
+        "i18n.backend.table.val" : "Value",
+
+        "Translations per application part" : "Translations per application part",
+        "Application" : "Application",
+        "Modules" : "Modules"
+    }
+}
